@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "CircularStd";
+    src: local("CircularStd"),
+        url(/src/assets/fonts/CircularStd-Book.ttf)
+}
+
+:root {
+    --primary: #5D50C6;
+    --secondary: #F85E9F;
+    --light: #EEEEEE;
+    --orange: #FF5722;
+    --black: #191825;
+    --yellow: #FACD49;
+    --white: #FFFFFF;
+    --grey: #1918251a;
+
+    --font-size-69: 69px;
+    --font-size-44: 44px;
+    --font-size-40: 40px;
+    --font-size-28: 28px;
+    --font-size-24: 24px;
+    --font-size-18: 18px;
+    --font-size-16: 16px;
+    --font-size-14: 14px;
+
+    // Font Weight
+    --font-weight-100: 100 !important;
+    --font-weight-300: 300 !important;
+    --font-weight-400: 400 !important;
+    --font-weight-500: 500 !important;
+    --font-weight-600: 600 !important;
+    --font-weight-700: 700 !important;
+    --font-weight-900: 900 !important;
+    // End Font Weight
+}
+
+.container {
+    max-width: 1184px !important;
+}
+
+.bg-primary {
+    background: var(--primary) !important;
+}
+
+.bg-secondary {
+    background: var(--secondary) !important;
+}
+
+.bg-orange {
+    background: var(--orange) !important;
+}
+
+.bg-black {
+    background: var(--black) !important;
+}
+
+.bg-yellow {
+    background: var(--yellow) !important;
+}
+
+.bg-white {
+    background: var(--white) !important;
+}
+
+
+.bg-light {
+    background: var(--light) !important;
+}
+
+.bg-grey {
+    background: var(--grey) !important;
+}
+
+
+.color-primary {
+    color: var(--primary) !important;
+}
+
+.color-secondary {
+    color: var(--secondary) !important;
+}
+
+.color-orange {
+    color: var(--orange) !important;
+}
+
+
+.color-black {
+    color: var(--black) !important;
+}
+
+.color-yellow {
+    color: var(--yellow) !important;
+}
+
+.color-white {
+    color: var(--white) !important;
+}
+
+.color-grey {
+    color: var(--grey) !important;
+}
+
+.color-light {
+    color: var(--light) !important;
+}
+
+
+
+.font-size-69 {
+    font-size: var(--font-size-69);
+}
+
+.font-size-44 {
+    font-size: var(--font-size-44);
+}
+.font-size-40 {
+    font-size: var(--font-size-40);
+}
+
+.font-size-28 {
+    font-size: var(--font-size-28);
+}
+.font-size-24 {
+    font-size: var(--font-size-24);
+}
+.font-size-16 {
+    font-size: var(--font-size-16);
+}
+.font-size-18 {
+    font-size: var(--font-size-18);
+}
+
+.font-size-14 {
+    font-size: var(--font-size-14);
+}
+
+.font-weight-900 {
+    font-weight: var(--font-weight-900);
+}
+
+
+.font-weight-700 {
+    font-weight: var(--font-weight-700);
+}
+
+.border-light-1{
+    border: 1px solid var(--light);
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+    appearance: none;
+
+    text-align: inherit;
+    outline: none;
+    font-family: inherit;
+}
+
+/* Remove excess padding and border in Firefox 4+ */
+::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
